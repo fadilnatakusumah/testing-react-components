@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --verbose",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-bootstrap": "^0.32.32"
+    "@types/react-bootstrap": "^0.32.32",
+    "cypress": "^12.7.0"
   }
 }
